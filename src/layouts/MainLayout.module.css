@@ -1,0 +1,14 @@
+.header {
+  font-family: 'Montserrat', sans-serif;
+  position: sticky;
+}
+
+.content {
+  padding-bottom: 300px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

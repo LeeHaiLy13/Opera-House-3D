@@ -1,0 +1,26 @@
+:root {
+  --primaryLight: #BBE1FA;
+  --primaryDark: #1B262C; 
+  --secondaryLight: #3282B8;
+  --secondaryDark: #0F4C75; 
+  --white: #ffffff;
+  --dark: #000000;
+  --headerFont: monospace;
+  --bodyFont: 'Roboto', sans-serif;
+  --bigHeaderFont: monospace;
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', 'Roboto',
+    monospace;
+}

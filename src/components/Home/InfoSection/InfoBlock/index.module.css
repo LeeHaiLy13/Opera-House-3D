@@ -1,0 +1,41 @@
+.container {
+    max-width: 400px;
+    margin: 0px auto;
+}
+
+.title_box {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    position: relative;
+}
+
+.title_box > div {
+    text-indent: 1rem;
+}
+
+.title_box div h4, .title_box h3 {
+    color: var(--primaryDark);
+    font-size: 26px;
+    line-height: 2.5rem;
+    font-family: var(--headerFont);
+}
+
+.description p {
+    font-size: 1.1rem;
+    /* text-shadow: 1px 1px 2px pink; */
+    margin-left: 0px;
+    color: var(--dark);
+    font-family: var(--bodyFont);
+}
+
+.icons {
+    margin-right: 1rem;
+    position: absolute;
+    left: -18%;
+    font-size: 20px;
+}
+
+.description {
+    text-align: left; 
+}
