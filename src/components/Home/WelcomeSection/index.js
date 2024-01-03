@@ -9,7 +9,7 @@ function WelcomeSection() {
         <div className={styles.layer}></div>
         <div className={styles.info}>
           <h1>Nhà hát lớn TP Hồ Chí Minh</h1>
-          <p>Chiêm ngưỡng nghệ thuật kiến trúc Pháp ngay giữa lòng Sài Gòn</p>
+          <p>Nơi giao thoa giữa vẻ đẹp kiến trúc và nghệ thuật trình diễn</p>
         </div>
       </section>
     </>

@@ -8,12 +8,20 @@
     color: var(--primaryDark);
     text-align: left;
     text-indent: 4rem;
-    font-size: 3rem;
+    /* font-size: 3rem; */
     font-family: var(--headerFont);
+}
+
+.thumbnail {
+    margin: 0.5rem; /* Adjust the margin as needed */
+    cursor: pointer; /* Add pointer cursor for better UX */
+    border: 1px solid black;
+    border-radius: 12px;
 }
 
 .image {
     width: 100%;
-    max-width: 80%;
+    max-width: 60%;
     height: auto;
+    padding: 4px;
 }

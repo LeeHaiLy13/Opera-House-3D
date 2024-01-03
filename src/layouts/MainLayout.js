@@ -7,6 +7,7 @@ function MainLayout(props) {
     return (
         <>
             <header className={styles.header}><NavBar /></header>
+            <div className={styles.block}></div>
             <main className={styles.content}>{props.children}</main>
             <footer className={styles.footer}><Footer /></footer>
         </>
