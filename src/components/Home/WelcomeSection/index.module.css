@@ -34,7 +34,7 @@
     font-family: monospace;
     /* text-shadow: #FF009B 2px 2px 15px; */
     margin: 2rem 0 0 3rem;
-    /* text-shadow: 0px 0px 8px rgba(0,0,0,0.8); */
+    text-shadow: 0px 0px 8px rgba(0,0,0,0.8);
 }
 
 .info p {
