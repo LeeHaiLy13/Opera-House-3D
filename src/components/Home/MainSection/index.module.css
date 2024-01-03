@@ -13,8 +13,7 @@
 }
 
 .thumbnail {
-    margin: 0.5rem; /* Adjust the margin as needed */
-    cursor: pointer; /* Add pointer cursor for better UX */
+    margin: 0.6rem; /* Adjust the margin as needed */
     border: 1px solid black;
     border-radius: 12px;
 }

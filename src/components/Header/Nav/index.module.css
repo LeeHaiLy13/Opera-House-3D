@@ -5,12 +5,27 @@
     position: relative;
 }
 
-.branch-color {
+.nav-brand {
     color: var(--white) !important;
     margin: 0 2rem;
     font-weight: 500;
     font-size: 2rem !important;
     font-family: var(--headerFont);
+    display: flex;
+    align-items: center;
+}
+
+.nav-brand img {
+    margin-right: 8px;
+}
+
+.nav-brand h2 {
+    margin: 0;
+}
+
+.logo-image {
+    width: 60px;
+    height: auto;
 }
 
 .nav-container {
@@ -33,7 +48,7 @@
 }
 
 .active {
-    background-color: var(--secondaryLight);
-    border-radius: 9999px;
+    border-bottom: 2px solid #d9a352;
+    /* border-radius: 9999px;    */
 }
 
