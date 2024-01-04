@@ -4,6 +4,7 @@ export const homeLabelText = "Trang chủ"
 export const modelLabelText = "Mô hình 3D"
 export const contactLabelText = "Liên hệ"
 export const aboutLabelText = "Về chúng tôi"
+export const bookLabelText = "Đặt vé"
 
 //footer
 export const address = "07 Công Trường Lam Sơn, Bến Nghé, Quận 1, Thành phố Hồ Chí Minh 710212"
