@@ -8,11 +8,12 @@ function Footer() {
     <section className={styles.container}>
       <div className={styles.detail} style={{ marginRight: "10px" }}>
         <h5>Nhà hát lớn Thành phố Hồ Chí Minh</h5>
-        <p>{address}</p>
-        <p>Liên hệ: 0888888888</p>
-        <p>Email: nhahatthanhpho@gmail.com</p>
+        <p>
+          {address}<br></br>
+          Liên hệ: 0888888888<br></br>
+          Email: nhahatthanhpho@gmail.com
+        </p>
       </div>
-
       <div className={styles.detail}>
         <h5>Thông tin</h5>
         <p>Trang Chủ</p>

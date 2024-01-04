@@ -5,8 +5,8 @@
   --secondaryDark: #0F4C75; 
   --white: #ffffff;
   --dark: #000000;
-  --headerFont: monospace;
-  --bodyFont: 'Roboto', sans-serif;
+  --headerFont: 'Segoe UI';
+  --bodyFont: 'Segoe UI', sans-serif;
   --bigHeaderFont: monospace;
 }
 

@@ -9,7 +9,7 @@ function NavBar() {
     return (
         <Navbar className={styles['nav-bg']} expand="lg">
             <Navbar.Brand className={styles["nav-brand"]} href="/home">
-                <img src={logoImage} alt="Your Logo Alt Text" className={styles['logo-image']} />
+                <img src={logoImage} alt="Saigon Opera House" className={styles['logo-image']} />
                 <h2>
                     {appName}
                 </h2>

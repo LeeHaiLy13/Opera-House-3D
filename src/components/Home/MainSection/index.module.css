@@ -18,9 +18,14 @@
     border-radius: 12px;
 }
 
+.artGallery,
+.mapShow {
+    margin-bottom: 5rem;
+}
+
 .image {
     width: 100%;
-    max-width: 60%;
+    max-width: 50%;
     height: auto;
     padding: 4px;
 }
