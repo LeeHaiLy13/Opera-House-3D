@@ -1,14 +1,14 @@
 
 .container{
    padding: 20px;
-   font-family: monospace;
+   font-family: 'Segoe UI';
 }
 h1{
-   font-family: monospace;
+   font-family: 'Segoe UI';
 }
 .timeline{
    text-align: justify;
-   font-family: monospace;
+   font-family: 'Segoe UI';
    background-color: rgb(186, 138, 74);
    border-radius: 5px;
    padding: 20px;
@@ -18,7 +18,7 @@ h1{
    grid-template-columns: 1fr 1fr;
    text-align: justify;
    grid-template-rows: auto;
-   font-family: monospace;
+   font-family: 'Segoe UI';
    background-color: rgb(186, 138, 74);
    border-radius: 5px;
    padding: 20px;
@@ -26,15 +26,16 @@ h1{
 
 .timeline2{
    background-color: rgb(233, 220, 205);
-   font-family: monospace;
+   font-family: 'Segoe UI';
    border-radius: 5px;
+   padding: 12px;
 }
 .content{
    padding: 10px;
 }
 .text_header{
    font-size: 18px;
-   font-family: monospace;
+   font-family: 'Segoe UI';
    
 }
 

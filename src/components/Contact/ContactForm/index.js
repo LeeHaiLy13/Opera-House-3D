@@ -33,7 +33,7 @@ setInterval(changeSlide, 3000);
     </div>
   </div>
 
-  <div class="col-sm-5 col-sm-5">
+  <div class="col-sm-6 col-sm-6">
      <div className={styles.text_LH}>
     <h2>GỬI NỘI DUNG LIÊN HỆ</h2>
     <p><i>Chúng tôi sẽ liên hệ với bạn trong vòng 48 tiếng.</i></p>
