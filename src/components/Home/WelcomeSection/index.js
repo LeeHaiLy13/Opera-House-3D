@@ -9,7 +9,7 @@ function WelcomeSection() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://www.portcoast.com.vn/public/images/articles/20201025-the-digitization-of-the-over-120-year-old-saigon-opera-house/the-digitization-of-the-over-120-year-old-saigon-opera-house-001.jpg"
+          src="https://www.luneproduction.com/content/images/thumbs/0002390_0_image.jpeg"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -22,7 +22,7 @@ function WelcomeSection() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://www.luneproduction.com/content/images/thumbs/0002390_0_image.jpeg"
+          src="https://www.portcoast.com.vn/public/images/articles/20201025-the-digitization-of-the-over-120-year-old-saigon-opera-house/the-digitization-of-the-over-120-year-old-saigon-opera-house-001.jpg"
           alt="Second slide"
         />
         <Carousel.Caption>
