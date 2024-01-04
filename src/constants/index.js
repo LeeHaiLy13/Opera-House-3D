@@ -1,5 +1,5 @@
 //header
-export const appName = "Municipal Theatre"
+export const appName = "Saigon Opera House"
 export const homeLabelText = "Trang chủ"
 export const modelLabelText = "Mô hình 3D"
 export const contactLabelText = "Liên hệ"
