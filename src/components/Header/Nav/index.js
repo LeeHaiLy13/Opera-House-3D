@@ -7,12 +7,12 @@ import { aboutLabelText, appName, contactLabelText, homeLabelText, modelLabelTex
 function NavBar() {
     const logoImage = require('../../../assets/logo/municipal_theatre.png');
     return (
-        <Navbar className={styles['nav-bg']} expand="lg">
+        <Navbar className={styles['navbarContainer']} expand="lg">
             <Navbar.Brand className={styles["nav-brand"]} href="/home">
                 <img src={logoImage} alt="Saigon Opera House" className={styles['logo-image']} />
-                <h2>
+                <p>
                     {appName}
-                </h2>
+                </p>
             </Navbar.Brand>
             <div className={styles['nav-container']}>
                 <Navbar.Collapse id="basic-navbar-nav">

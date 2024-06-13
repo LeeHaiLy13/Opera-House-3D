@@ -2,15 +2,9 @@ import React, { useEffect, useState } from 'react'
 import NavBar from '../components/Header/Nav'
 import Footer from "../components/Footer"
 import styles from './MainLayout.module.css'
-import Button from 'react-bootstrap/Button'
 
 
 function MainLayout(props) {
-    const backtoTop = () => {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    }
-
     const [showBackToTop, setShowBackToTop] = useState(false);
 
     useEffect(() => {
@@ -29,7 +23,7 @@ function MainLayout(props) {
     return (
         <>
             <header className={styles.header}><NavBar /></header>
-            <div className={styles.block}></div>
+            {/* <div className={styles.block}></div> */}
             <main className={styles.content}>{props.children}</main>
             <footer className={styles.footer}><Footer /></footer>
             {showBackToTop && (

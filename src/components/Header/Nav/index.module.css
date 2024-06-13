@@ -1,26 +1,24 @@
-.nav-bg {
+.navbarContainer {
     /* background-color: var(--primaryDark); */
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7));
-    backdrop-filter: blur(5px);
-    position: relative;
+    justify-content: space-between !important;
+    max-width: 1320px;
+    width: 100%;
+    margin: auto;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
 }
 
 .nav-brand {
     color: var(--white) !important;
-    margin: 0 2rem;
+    margin: 0;
     font-weight: 500;
     font-size: 2rem !important;
-    font-family: var(--headerFont);
-    display: flex;
-    align-items: center;
+    font-family: var(--brandnameFont);
 }
 
-.nav-brand img {
-    margin-right: 8px;
-}
-
-.nav-brand h2 {
+.nav-brand p {
     margin: 0;
+    font-size: 0.9rem;
 }
 
 .logo-image {
@@ -29,8 +27,7 @@
 }
 
 .nav-container {
-    position: absolute;
-    right: 2rem;
+    
 }
 
 .nav-box {
