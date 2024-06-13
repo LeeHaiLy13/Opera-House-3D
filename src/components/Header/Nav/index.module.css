@@ -4,16 +4,16 @@
     max-width: 1320px;
     width: 100%;
     margin: auto;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
 }
 
 .nav-brand {
     color: var(--white) !important;
-    margin: 0 2rem;
+    margin: 0;
     font-weight: 500;
     font-size: 2rem !important;
     font-family: var(--brandnameFont);
-    /* display: flex;
-    align-items: center; */
 }
 
 .nav-brand p {
