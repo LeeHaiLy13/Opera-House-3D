@@ -6,12 +6,12 @@ import { address } from '../../constants'
 function Footer() {
   return (
     <section className={styles.container}>
-      <div className={styles.detail} style={{ marginRight: "10px" }}>
-        <h5>Nhà hát lớn Thành phố Hồ Chí Minh</h5>
+      <div className={styles.detail}>
+        <h5>Nhà hát lớn Thành phố <br></br> Hồ Chí Minh</h5>
         <p>
           {address}<br></br>
-          Liên hệ: 0888888888<br></br>
-          Email: nhahatthanhpho@gmail.com
+          Liên hệ: 0864xxx868<br></br>
+          Email: saigonoperahouse@gmail.com
         </p>
       </div>
       <div className={styles.detail}>
@@ -36,7 +36,7 @@ function Footer() {
         <h5>Follow us</h5>
         <span className={styles.brands}>
           <span><FontAwesomeIcon icon={faFacebook} color={"white"} /></span> &nbsp;
-          <p> HCM Municipal Theater</p>
+          <p>Saigon Opera House</p>
         </span>
       </div>
     </section>

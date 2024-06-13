@@ -10,24 +10,19 @@
 
 .nav-brand {
     color: var(--white) !important;
-    margin: 0;
-    font-weight: 500;
-    font-size: 2rem !important;
+    margin: 0 !important;
     font-family: var(--brandnameFont);
 }
-
+    
 .nav-brand p {
+    font-weight: 500;
     margin: 0;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 .logo-image {
-    width: 60px;
+    width: 70px;
     height: auto;
-}
-
-.nav-container {
-    
 }
 
 .nav-box {
@@ -44,8 +39,12 @@
     font-family: var(--headerFont);
 }
 
+.nav-box a:hover {
+    color: #d9a352;
+}
+
 .active {
+    color: #d9a352 !important;
     border-bottom: 2px solid #d9a352;
-    /* border-radius: 9999px;    */
 }
 

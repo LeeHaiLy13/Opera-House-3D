@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 :root {
   --primaryLight: #BBE1FA;
   --primaryDark: #1B262C; 
@@ -5,7 +7,8 @@
   --secondaryDark: #0F4C75; 
   --white: #ffffff;
   --dark: #000000;
-  --brandnameFont: 'Comic Sans MS';
+  /* --brandnameFont: 'Comic Sans MS'; */
+  --brandnameFont: 'Lobster', sans-serif;
   --headerFont: 'Segoe UI';
   --bodyFont: 'Segoe UI', sans-serif;
   --bigHeaderFont: monospace;
