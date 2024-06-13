@@ -7,18 +7,21 @@
   }
   
 .text_LH{
+    background-color:  rgb(233, 220, 205);
     float: left;
     text-align: left;
     font-family: 'Segoe UI';
-    font-size: 20px;
+    font-size: 16px;
     padding: 20px;
+    margin: 50px 0 100px 85px;
+  
   }
 
   .text_LH1{
     float: left;
     text-align: center;
     font-family: 'Segoe UI';
-    margin:10px;
+    margin: 10px;
   }
    
   .container h3 {
@@ -88,3 +91,4 @@
     font-family: 'Segoe UI';
     
   }
+  

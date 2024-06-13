@@ -5,6 +5,7 @@
 }
 h1{
    font-family: 'Segoe UI';
+   padding: 50px;
 }
 .timeline{
    text-align: justify;
@@ -22,21 +23,25 @@ h1{
    background-color: rgb(186, 138, 74);
    border-radius: 5px;
    padding: 20px;
+   font-size:  18px;
 }
 
 .timeline2{
-   background-color: rgb(233, 220, 205);
-   font-family: 'Segoe UI';
+   font-size: 'Segoe UI';
    border-radius: 5px;
-   padding: 12px;
+   padding-bottom: 12px;
 }
 .content{
    padding: 10px;
 }
 .text_header{
-   font-size: 18px;
+   font-size: 25px;
    font-family: 'Segoe UI';
+   font-weight: bold;
    
 }
-
+.text{
+   font-size: 20px;
+   padding: 8px;
+}
 

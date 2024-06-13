@@ -84,7 +84,7 @@ return (
     <section> 
      
      <div className={styles.banner} >
-       <p className={styles.text_banner}  >GIỚI THIỆU</p>
+       <p className={styles.text_banner}></p>
     </div>
     
       <div>
