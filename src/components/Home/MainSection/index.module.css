@@ -6,7 +6,7 @@
 
 .title {
     color: var(--primaryDark);
-    text-align: left;
+    text-align: center;
     text-indent: 4rem;
     /* font-size: 3rem; */
     font-family: var(--headerFont);
@@ -18,10 +18,15 @@
     border-radius: 12px;
 }
 
-.model,
-.artGallery,
-.mapShow {
-    margin-bottom: 5rem;
+.model::after,
+.artGallery::after {
+    content: '';
+    display: block;
+    width: 320px;
+    height: 40px;
+    margin: 40px auto;
+    background: url(../../../assets/bamboo.png) center center no-repeat;
+    background-size: 100% auto;
 }
 
 .image {
