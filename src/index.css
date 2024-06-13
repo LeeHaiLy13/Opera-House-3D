@@ -5,6 +5,7 @@
   --secondaryDark: #0F4C75; 
   --white: #ffffff;
   --dark: #000000;
+  --brandnameFont: 'Comic Sans MS';
   --headerFont: 'Segoe UI';
   --bodyFont: 'Segoe UI', sans-serif;
   --bigHeaderFont: monospace;
@@ -12,7 +13,6 @@
 
 
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
