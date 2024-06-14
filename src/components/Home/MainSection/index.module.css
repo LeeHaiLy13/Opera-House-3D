@@ -21,14 +21,15 @@
 }
 
 .thumbnail {
-    margin: 0.6rem;
-    border: 1px solid black;
+    /* margin: 0.6rem; */
+    border: 1px solid rgba(61, 60, 60, 0.4);
     border-radius: 12px;
 }
 
 .textDeco {
     text-align: justify;
     text-indent: 2rem;
+    font-size: 1.2rem;
 
 }
 

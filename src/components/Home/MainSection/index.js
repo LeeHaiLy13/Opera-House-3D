@@ -14,7 +14,8 @@ function MainSection() {
             </div>
             <div className='col-6'>
               <p className={styles.textDeco}>
-                Nhà hát Thành phố Hồ Chí Minh (thường được gọi ngắn gọn là Nhà hát Thành phố hoặc Nhà hát Lớn) được xây dựng vào năm 1898 bởi kiến trúc sư người Pháp Eugene Ferret theo lối kiến trúc hào nhoáng của thời Đệ tam cộng hoà Pháp. Nhà hát được xây cao hơn mặt đường hai mét, với hệ thống hai lớp cửa cách âm ngăn tiếng ồn đường phố vào bên trong. Được xây với cấu trúc đối xứng, nhà hát nằm ngay trên trục trung tâm thành phố, kết nối ga tàu điện ngầm, và từ đây ta có thể phóng tầm mắt nhìn thẳng ra bùng binh chợ Bến Thành. Mái vòm với điêu khắc nổi đặc trưng khiến nhà hát trông xa tựa như một ‘Khải Hoàn Môn’ lộng lẫy. Kiến trúc nhà hát thu hút từ những bức tượng chạm trổ tinh tế, đèn chùm pha lê rực rỡ, cho đến sàn đá granit sáng bóng đại sảnh. Khán phòng hình ô voan ngăn tiếng vang, có sức chứa 468 khách, đảm bảo chất lượng âm thanh và tầm nhìn từ mọi ghế về sân khấu.
+                Nhà hát Thành phố Hồ Chí Minh (thường được gọi ngắn gọn là Nhà hát Thành phố hoặc Nhà hát Lớn) được xây dựng vào năm 1898 bởi kiến trúc sư người Pháp Eugene Ferret theo lối kiến trúc hào nhoáng của thời Đệ tam cộng hoà Pháp. Nhà hát được xây cao hơn mặt đường hai mét, với hệ thống hai lớp cửa cách âm ngăn tiếng ồn đường phố vào bên trong.
+                Được xây với cấu trúc đối xứng, nhà hát nằm ngay trên trục trung tâm thành phố, kết nối ga tàu điện ngầm, và từ đây ta có thể phóng tầm mắt nhìn thẳng ra bùng binh chợ Bến Thành. Mái vòm với điêu khắc nổi đặc trưng khiến nhà hát trông xa tựa như một ‘Khải Hoàn Môn’ lộng lẫy.
               </p>
             </div>
           </div>
@@ -30,7 +31,8 @@ function MainSection() {
             </div>
             <div className='col-6'>
               <p className={styles.textDeco}>
-                Nhà hát Thành phố Hồ Chí Minh - với lịch sử phát triển hàng trăm năm - được xem như “cái nôi nghệ thuật” tại địa phương, nơi có các chương trình biểu diễn quy mô lớn. Ngày nay, Nhà hát Lớn Sài Gòn còn là toạ độ “sống ảo” được nhiều  trẻ tuổi yêu mến.
+                {/* Nhà hát Thành phố Hồ Chí Minh - với lịch sử phát triển hàng trăm năm - được xem như “cái nôi nghệ thuật” tại địa phương, nơi có các chương trình biểu diễn quy mô lớn. Ngày nay, Nhà hát Lớn Sài Gòn còn là toạ độ “sống ảo” được nhiều  trẻ tuổi yêu mến. */}
+                Nhà hát Thành phố Hồ Chí Minh là một địa điểm văn hóa quan trọng được công nhận là di tích quốc gia vào năm 2012. Nó được coi là nhà hát đa năng chuyên biểu diễn sân khấu và cũng là nơi tổ chức một số sự kiện lớn, ví dụ như là nơi biểu diễn nghệ thuật ballet, dàn nhạc và opera quốc gia, đặc biệt nổi tiếng với các chương trình văn nghệ buổi tối như À Ố Show, Teh Dar và The Mist.
               </p>
             </div>
           </div>
@@ -64,7 +66,7 @@ function MainSection() {
       <div className={styles.mapShow}>
         <h2 className={styles.title}>Vị trí của Nhà hát lớn TP.HCM</h2>
         <iframe
-          className={styles.thumbnail}
+          // className={styles.thumbnail}
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.4522159703647!2d106.70059047477837!3d10.776635189372167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f4649e7ca29%3A0x55f531b6120cae3b!2zTmjDoCBow6F0IFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaA!5e0!3m2!1svi!2s!4v1704365527700!5m2!1svi!2s"
           width="640"
           height="480"
