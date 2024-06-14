@@ -45,6 +45,32 @@ function WelcomeSection() {
           </div>
         </Carousel.Caption>
       </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://www.luneproduction.com/content/images/thumbs/0002384_0_image.jpeg"
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+          <div className={styles.caption}>
+            <h3>Nhà hát lớn TP Hồ Chí Minh</h3>
+            <p>Nơi giao thoa giữa vẻ đẹp kiến trúc và nghệ thuật trình diễn</p>
+          </div>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://www.portcoast.com.vn/public/images/projects/saigon-opera-house/saigon-opera-house-058.jpg"
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+          <div className={styles.caption}>
+            <h3>Nhà hát lớn TP Hồ Chí Minh</h3>
+            <p>Nơi giao thoa giữa vẻ đẹp kiến trúc và nghệ thuật trình diễn</p>
+          </div>
+        </Carousel.Caption>
+      </Carousel.Item>
     </Carousel>
   )
 }

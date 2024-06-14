@@ -37,20 +37,3 @@
 .border_contex{
   border-left: 2px solid rgb(179, 128, 47);
 }
-
-.banner{
-  background-image: url('./nhahat.jpg');
-  background-repeat: no-repeat;
-  height: 240px;
-  background-size: cover;
-  width:100%;
-}
-
-.text_banner{
-  position:absolute;
-  text-align: center;
-  color: #ffffff;
-  font-size: 60px;
-  font-family: 'Segoe UI';
-  
-}

@@ -19,8 +19,8 @@ function NavBar() {
                     <Nav className={styles['nav-box']} >
                         <NavLink to="/home" activeClassName={styles.active}>{homeLabelText}</NavLink>
                         <NavLink to="/model" activeClassName={styles.active}>{modelLabelText}</NavLink>
-                        <NavLink to="/book-ticket" activeClassName={styles.active}>{bookLabelText}</NavLink>
                         <NavLink to="/about" activeClassName={styles.active}>{aboutLabelText}</NavLink>
+                        <NavLink to="/book-ticket" activeClassName={styles.active}>{bookLabelText}</NavLink>
                         <NavLink to="/contact" activeClassName={styles.active}>{contactLabelText}</NavLink>
                     </Nav>
                 </Navbar.Collapse>
