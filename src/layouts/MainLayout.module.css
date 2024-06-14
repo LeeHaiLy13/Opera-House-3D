@@ -9,6 +9,11 @@
   backdrop-filter: blur(5px);
 }
 
+.block {
+  background: url(../assets/bg/bg.jpg) repeat;
+  height: 110px;
+}
+
 .footer {
   width: 100%;
   background-color: #000;

@@ -1,34 +1,28 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
+import { Route, Switch, Redirect } from 'react-router-dom';
 import About from '../pages/About';
 import Contact from '../pages/Contact';
 import Home from '../pages/Home';
 import Model from '../pages/Model';
 import Book from '../pages/BookTicket';
+import Login from '../pages/LoginRegister/login';
+import Register from '../pages/LoginRegister/register';
 
 function MainRoute() {
   return (
     <Switch>
-      <Route path="/home">
-        <Home></Home>
-      </Route>
-      <Route path="/contact">
-        <Contact />
-      </Route>
-      <Route path="/about">
-        <About />
-      </Route>
-      <Route path="/model">
-        <Model />
-      </Route>
-      <Route path="/book-ticket">
-        <Book />
-      </Route>
-      <Route path="*">
-        <Home />
+      <Route path="/home" component={Home} />
+      <Route path="/contact" component={Contact} />
+      <Route path="/about" component={About} />
+      <Route path="/model" component={Model} />
+      <Route path="/book-ticket" component={Book} />
+      <Route path="/login" component={Login} />
+      <Route path="/register" component={Register} />
+      <Route path="/">
+        <Redirect to="/home" />
       </Route>
     </Switch>
-  )
+  );
 }
 
-export default MainRoute
+export default MainRoute;
