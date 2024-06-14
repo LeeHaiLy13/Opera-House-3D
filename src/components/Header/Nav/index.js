@@ -1,6 +1,7 @@
 import React from 'react'
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import Button from 'react-bootstrap/Button';
 import styles from "./index.module.css";
 import { NavLink } from "react-router-dom";
 import { aboutLabelText, appName, contactLabelText, homeLabelText, modelLabelText, bookLabelText } from '../../../constants';
@@ -22,6 +23,14 @@ function NavBar() {
                         <NavLink to="/about" activeClassName={styles.active}>{aboutLabelText}</NavLink>
                         <NavLink to="/book-ticket" activeClassName={styles.active}>{bookLabelText}</NavLink>
                         <NavLink to="/contact" activeClassName={styles.active}>{contactLabelText}</NavLink>
+                    </Nav>
+                    <Nav className={styles['login-register']}>
+                        <NavLink className={styles['col']} to="/login">
+                            <Button className={styles['auth-button']}>Đăng nhập</Button>
+                        </NavLink>
+                        <NavLink to="/register">
+                            <Button className={styles['auth-button']}>Đăng ký</Button>
+                        </NavLink>
                     </Nav>
                 </Navbar.Collapse>
             </div>

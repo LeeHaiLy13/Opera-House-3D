@@ -1,50 +1,72 @@
 .navbarContainer {
-    /* background-color: var(--primaryDark); */
-    justify-content: space-between !important;
-    max-width: 1320px;
-    width: 100%;
-    margin: auto;
-    padding-left: 40px !important;
-    padding-right: 40px !important;
+  /* background-color: var(--primaryDark); */
+  justify-content: space-between !important;
+  max-width: 1320px;
+  width: 100%;
+  margin: auto;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
 }
 
 .nav-brand {
-    color: var(--white) !important;
-    margin: 0 !important;
-    font-family: var(--brandnameFont);
+  color: var(--white) !important;
+  margin: 0 !important;
+  font-family: var(--brandnameFont);
 }
-    
+
 .nav-brand p {
-    font-weight: 500;
-    margin: 0;
-    font-size: 1rem;
+  font-weight: 500;
+  margin: 0;
+  font-size: 1rem;
 }
 
 .logo-image {
-    width: 70px;
-    height: auto;
+  width: 70px;
+  height: auto;
 }
 
 .nav-box {
-    width: 100%;
+  width: 100%;
 }
 
 .nav-box a {
-    color: var(--white); 
-    margin: 0 0.5rem;
-    padding: 0.7rem 1.6rem;
-    font-size: 1rem;
-    font-weight: 500;
-    text-decoration: none;
-    font-family: var(--headerFont);
+  color: var(--white);
+  margin: 0 0.5rem;
+  padding: 0.7rem 1.6rem;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  font-family: var(--headerFont);
 }
 
 .nav-box a:hover {
-    color: #d9a352;
+  color: #d9a352;
 }
 
 .active {
-    color: #d9a352 !important;
-    border-bottom: 2px solid #d9a352;
+  color: #d9a352 !important;
+  border-bottom: 2px solid #d9a352;
 }
 
+.login-register {
+    display: flex;
+    gap: 12px;
+}
+
+.auth-button {
+  border-radius: 12px;
+  padding: 4px 12px;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: var(--headerFont) !important;
+  width: max-content;
+  text-wrap: nowrap;
+  color: white;
+  background-color: transparent !important;
+  border-color: white !important;
+}
+
+.auth-button:hover {
+  color: #d9a352 !important;
+  border-color: #d9a352 !important;
+}
