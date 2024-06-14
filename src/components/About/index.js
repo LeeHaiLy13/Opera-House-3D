@@ -82,25 +82,17 @@ const AboutUs = () => {
 return (
 
     <section> 
-     
-     <div className={styles.banner} >
-       <p className={styles.text_banner}></p>
-    </div>
-    
-      <div>
-
+      <div className='container'>
         <div className="row">
           <div className="col-sm-3">
             <ListComponent items={items} />
           </div>
 
-          <div className="col-sm-6 col-md-8 border-left" >
+          <div className="col-md-9" >
             {selectedComponent}
           </div>
         </div>
-
       </div>
-
     </section>
   
   );
